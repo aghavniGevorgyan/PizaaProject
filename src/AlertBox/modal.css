@@ -1,0 +1,33 @@
+.modalDiv{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    font-size: 30px;
+    color: orangered;
+}
+.linkBtns{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+.no,.yes{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    background: aquamarine;
+    border-color: aqua;
+}
+.no:hover{
+    background: greenyellow;
+    border-color: green;
+}
+.yes:hover{
+    background: rgba(255, 0, 0, 0.707);
+    border-color: red;
+}

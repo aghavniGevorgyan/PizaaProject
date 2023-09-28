@@ -1,0 +1,109 @@
+.container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headDiv {
+    max-width: 316px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headDiv > a{
+    text-decoration: none;
+}
+.boldTitle{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;;
+}
+.grayTitle{
+    color: gray;
+}
+.upDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.upDiv >a{
+    text-decoration: none;
+}
+.btnCart {
+    width: 150px;
+    height: 50px;
+    background: #FE5F1E;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceAndButton {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartPrice {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.pizzaPrice {
+    font-size: 18px;
+    font-weight: bold;
+}
+.btns {
+    width: 155px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: orange;
+    background: white;
+    color: orange;
+}
+.btnHr{
+    height: 20px;
+    margin: 5px;
+    color: white;
+}
+.fa-shopping-cart{
+    color: white;
+    font-size: 18px;
+}
+.searchDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchInp{
+    width: 80%;
+    height: 30px;
+}
+hr{
+    opacity: 0.2;
+}
+ @media only screen and (max-width: 1080px) {
+   .btnCart{
+    width: 130px;
+}
+}
+@media only screen and (max-width: 768px){
+    .container{
+        flex-wrap: wrap;
+    }
+    .btnCart{
+        width: 100px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .container{
+        height: 150px;
+    }
+}

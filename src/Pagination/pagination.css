@@ -1,0 +1,45 @@
+.pagContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    gap: 5px;
+}
+
+.pagination li>a {
+    padding: 8px 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.pagination li>a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.pagination li>.active {
+    background: orange;
+}
+
+.pagForm {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

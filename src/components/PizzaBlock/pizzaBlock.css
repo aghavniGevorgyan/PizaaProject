@@ -1,0 +1,97 @@
+.typeUl,
+.typeUlSecond {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.typeUlSecond > li,
+.typeUl > li {
+  list-style: none;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typeUl > li {
+  width: 131.88px;
+}
+
+.typeUlSecond > li {
+  width: 86.01px;
+}
+.productDiv {
+  width: 280px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.PizzaName {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pizzaParams {
+  width: 280px;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #8080805c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.activeLI {
+  background: white;
+  border-radius: 10px;
+  color: black;
+}
+.btns {
+  width: 155px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  border-color: orange;
+  background: white;
+  color: orange;
+  font-size: 16px;
+}
+.btns:hover {
+  background: rgba(255, 166, 0, 0.465);
+  color: white;
+}
+.productImage {
+  width: 259.1216735839844px;
+  height: 260px;
+  top: 373px;
+  left: 127px;
+}
+.raitngSpan,
+.pluseSpan {
+  width: 20px;
+  background: orange;
+  color: white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 420px) {
+ 
+  .PizzaName {
+    font-size: 25px;
+  }
+  .productImage {
+    width: 230px;
+    height: 230px;
+  }
+  .pizzaParams {
+    width: 93%;
+    height: 100px;
+  }
+}

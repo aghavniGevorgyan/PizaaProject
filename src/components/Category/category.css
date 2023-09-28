@@ -1,0 +1,39 @@
+.navUl {
+    max-width: 830px;
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+.navUl>li {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background: #8080804a;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.navUl li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.navUl>.active {
+    background: black;
+    color: white;
+}
+
+.navUl .active>a {
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .navUl{
+        overflow: scroll;
+        margin: 0 auto;
+    }
+    
+}

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cartDiv{
+    width: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.cartImage{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.cartImage > img {
+    width: 15%;
+}
+.delImage{
+    height: 20px;
+}
+.delButton{
+    width: 15%;
+    color: gray;
+    background: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.cartProducts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 821px;
+    height: auto;
+    margin: 0 auto;
+}
+.prIm{
+    width:80px;
+    height: 80px;
+}
+.titleText{
+    font-weight: bold;
+    font-size: 17px;
+}
+.grayText{
+    color: gray;
+}
+.someButton{
+    width: 20%;
+    height: 27px;
+    color: orange;
+    border-radius: 50%;
+    border: 1px solid orange;
+    background: white
+}
+.buttonsDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    align-items: center;
+}
+.xButton{
+    width: 25px;
+    height: 25px;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 50%;
+}
+.itogDiv{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number{
+    font-weight: bold;
+}
+.sum{
+    color: orange;
+}
+.footButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+.backButton{
+    width: 10%;
+    height: 45px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.backButton > a{
+    text-decoration: none;
+    color: gray;
+}
+.payButton{
+    width: 15%;
+    height: 45px;
+    background: #FE5F1E;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.divs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px auto;
+}
+.hrProducts{
+    width: 820px;
+    color: gray;
+    margin: 0 auto;
+}
+.modalLink{
+    width: 10%;
+}
+.productParamDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productParamDiv >button{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid orangered;
+}
+
+@media only screen and (max-width: 950px){
+    .hrProducts,.cartDiv,.cartProducts{
+        width: 600px;
+    }
+    .payButton{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 670px){
+    .hrProducts,.cartDiv,.cartProducts{
+        width: 450px;
+    }
+    
+    .payButton{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 540px){
+    .hrProducts,.cartDiv,.cartProducts{
+        width: 250px;
+    }
+    .cartProducts{
+        flex-direction: column;
+    }
+}
